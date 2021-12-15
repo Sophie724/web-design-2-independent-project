@@ -1,0 +1,32 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Sophie Lu <lu000148@algonquinlive.com>
+Github: https://github.com/Sophie724
+Location: Ottawa, Canada
+
+
+
+---
+
+# THANKS
+
+- "All picture"
+Used under CC BY
+https://unsplash.com
+
+- "All icons "
+Used under CC BY
+https://www.flaticon.com
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Git + Github
+- Atom
+_ Markbot
+-ImageOptim
+-Spritebot

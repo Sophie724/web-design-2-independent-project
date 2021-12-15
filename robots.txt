@@ -1,0 +1,29 @@
+User-Agent: *
+Disallow:
+
+Sitemap: http://sophie724.github.io/sitemap.xml
+
+# robots.txt
+#
+#This file is great.
+#
+# For more information about robots.txt standard, see:
+# www.sophie724.github.io/robotstxt.org
+#
+# (www.)?robotstxt.org
+
+#hi
+
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# www.robotstxt.org/

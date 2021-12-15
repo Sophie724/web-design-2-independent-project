@@ -1,0 +1,290 @@
+html {
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+  color: #456170;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  color: #456170;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+body {
+  background: white;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.skip-links {
+  position: absolute;
+  top: -6em;
+}
+
+header {
+  background: #456170;
+  display: flex;
+  align-items: center;
+  height: 130px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: 2rem;
+  width: 130px;
+  height: auto;
+}
+
+.navigation ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  font-size: 1.05rem;
+  padding: 1rem;
+}
+
+.navigation {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navigation-box li a:hover {
+  color: #688fa5;
+  border: 2px solid #fff;
+}
+
+.nav-list {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li a {
+  text-decoration: none;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.giveaway {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.give-away {
+  width: 100%;
+  display: flex;
+  margin: 1rem;
+}
+
+.overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 1rem;
+  gap: 1rem;
+}
+
+.overview-image {
+  width: 100%;
+}
+
+.hover-box {
+  width: 21.479rem;
+  height: 32.218rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.hover-box img {
+  display: block;
+  width: 21.479rem;
+  height: 32.218rem;
+}
+
+.hover-box:hover .hover-color-box {
+  width: 21.479rem;
+}
+
+.hover-color-box {
+  width: 0;
+  height: 32.218rem;
+  background: rgba(228, 234, 240, .73);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: .5s ease;
+}
+
+.hover-color-box h2 {
+  color: #688fa5;
+  font-size: 2rem;
+}
+
+.newsletter {
+  background-color: #e4eaf0;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem 0;
+}
+
+.newsletter-first {
+  margin: 0 1rem;
+}
+
+.sign-email {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0 1rem;
+  color: #456170;
+}
+
+.email {
+  border: solid 3px #456170;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-left: 5rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.sign-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #456170;
+  margin: 1.5rem 3rem 1.5rem 1.5rem;
+  border: 2px solid #456170;
+  border-radius: 5px;
+  padding-top: .5rem;
+}
+
+.sign-button:hover {
+  background-color: #688fa5;
+  border: 2px solid #688fa5;
+}
+
+.footer {
+  background-color: #456170;
+  padding: 1rem;
+  height: 200px;
+}
+
+footer {
+  background-color: #456170;
+  width: auto;
+  height: 160px;
+  z-index: -1;
+}
+
+footer h3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: Raleway, sans-serif;
+  font-size: .938rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+  margin-top: 0;
+  padding-top: 1rem;
+  font-weight: normal;
+}
+
+.social {
+  text-align: center;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 0;
+}
+
+.social a {
+  margin: 0 .5rem;
+  color: #456170;
+}
+
+.icon {
+  width: 35px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.icon:hover {
+  border: 3px solid #688fa5;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .giveaway-video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+
+  .giveaway {
+    margin: 0 1rem 1rem 2rem;
+  }
+
+  .giveawaysection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    color: #456170;
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+
+  .navigation li {
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 3rem;
+  }
+
+}
+
+@media only screen and (min-width: 62.5em) {
+
+  .hover-box {
+    width: 441px;
+    height: 663px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .navigation li {
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 5rem;
+  }
+
+}
