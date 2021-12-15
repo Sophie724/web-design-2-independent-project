@@ -1,0 +1,420 @@
+html {
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: white;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.skip-links {
+  position: absolute;
+  top: -6em;
+}
+
+header {
+  background: #456170;
+  display: flex;
+  align-items: center;
+  height: 130px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: 2rem;
+  width: 130px;
+  height: auto;
+}
+
+.navigation ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  font-size: 1.05rem;
+  padding: 1rem;
+}
+
+.navigation {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navigation-box li a:hover {
+  color: #688fa5;
+  border: 2px solid #fff;
+}
+
+.nav-list {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li a {
+  text-decoration: none;
+}
+
+.session-pic {
+  width: 100%;
+  height: auto;
+}
+
+.session {
+  display: flex;
+}
+
+.session article {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.session p {
+  flex-grow: 1;
+}
+
+.main article {
+  margin-bottom: 1rem;
+}
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  color: #47606c;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: .938rem;
+}
+
+.session li {
+  list-style-type: disc;
+  font-size: .875rem;
+  margin-bottom: .5rem;
+  text-align: left;
+}
+
+.e {
+  font-family: "Playfair Display", serif;
+  color: #47606c;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.purchase:hover {
+  background: rgba(71, 96, 108, 1);
+  color: white;
+  border-radius: .938rem;
+}
+
+.purchase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  color: rgba(71, 96, 108, 1);
+  font-weight: bold;
+  border-radius: 12px;
+  border: solid 3px #47606c;
+  text-decoration: none;
+  padding: .5rem;
+  font-size: .938rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.profolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.slider {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  overflow-x: auto;
+
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+}
+
+.slide {
+  width: 500px;
+  flex-shrink: 0;
+  height: 100%;
+  background-color: blue;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+}
+
+.number {
+  width: 20%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.type {
+  text-align: center;
+}
+
+.talk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.talk a {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  color: rgba(71, 96, 108, 1);
+  font-weight: bold;
+  border-radius: 12px;
+  border: solid 3px #47606c;
+  text-decoration: none;
+  margin-left: 1rem;
+  padding: .5rem;
+  font-size: .938rem;
+}
+
+.name,
+.email {
+  padding: .5rem 0 1rem .5rem;
+  border-radius: 7px;
+  border: solid 3px #47606c;
+  margin: 1rem;
+  font-weight: bolder;
+  font-size: .875rem;
+  color: #47606c;
+  box-sizing: inherit;
+  position: relative;
+}
+
+.message {
+  padding: .5rem 0 10rem .5rem;
+  border-radius: 7px;
+  border: solid 3px #47606c;
+  margin: 1rem;
+  font-weight: bolder;
+  font-size: .875rem;
+  color: #47606c;
+}
+
+.submit {
+  align-items: center;
+}
+
+.talk a:hover {
+  background: rgba(71, 96, 108, 1);
+  color: white;
+  border-radius: .938rem;
+}
+
+.talk-pic {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+  width: 70%;
+  height: 0;
+  padding-bottom: 40%;
+  background: #000;
+  border: solid 10px #c3c3c3;
+}
+
+main {
+  margin: 1rem;
+}
+
+.footer {
+  background-color: #456170;
+  padding: 1rem;
+  height: 200px;
+}
+
+footer {
+  background-color: #456170;
+  width: auto;
+  height: 160px;
+  z-index: -1;
+}
+
+footer p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: Raleway, sans-serif;
+  font-size: .938rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+  margin-top: 0;
+  padding-top: 1rem;
+  font-weight: normal;
+}
+
+.social {
+  text-align: center;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 0;
+}
+
+.social a {
+  margin: 0 .5rem;
+  color: #456170;
+}
+
+.icon {
+  width: 35px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.icon:hover {
+  border: 3px solid #688fa5;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .purchase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: rgba(71, 96, 108, 1);
+    font-weight: bold;
+    border-radius: 12px;
+    border: solid 3px #47606c;
+    text-decoration: none;
+    padding: .5rem;
+    font-size: .938rem;
+    margin: 0 auto;
+  }
+
+  .name,
+  .email {
+    padding: .5rem 0 2rem .5rem;
+    border-radius: 7px;
+    border: solid 3px #47606c;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: .875rem;
+    color: #47606c;
+    box-sizing: inherit;
+    position: relative;
+  }
+
+  .message {
+    padding: .5rem 0 18rem .5rem;
+    border-radius: 7px;
+    border: solid 3px #47606c;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: .875rem;
+    color: #47606c;
+  }
+
+  .talk {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .session-pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .session {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .session div {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .session p {
+    flex-grow: 1;
+  }
+
+  .session li {
+    list-style-type: disc;
+    font-size: .875rem;
+    margin-bottom: .5rem;
+    text-align: left;
+  }
+
+  .navigation li {
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 3rem;
+  }
+
+}
+
+@media only screen and (min-width: 62.5em) {
+
+  .name,
+  .email {
+    padding: .5rem 0 4rem .5rem;
+    border-radius: 7px;
+    border: solid 3px #47606c;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: .875rem;
+    color: #47606c;
+    box-sizing: inherit;
+    position: relative;
+  }
+
+  .message {
+    padding: .5rem 0 25rem .5rem;
+    border-radius: 7px;
+    border: solid 3px #47606c;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: .875rem;
+    color: #47606c;
+  }
+
+  .navigation li {
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 5rem;
+  }
+
+}
