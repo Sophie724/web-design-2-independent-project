@@ -134,7 +134,7 @@ header {
   height: 32.218rem;
   background: rgba(228, 234, 240, .73);
   position: absolute;
-  top: 0;
+  top: -32.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
